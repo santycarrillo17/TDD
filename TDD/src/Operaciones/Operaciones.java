@@ -2,44 +2,33 @@ package Operaciones;
 
 public class Operaciones {
 
-	public void suma() {
-
-		int a =5;
-		int b =8;
-		int res = a+b;
-
-		System.out.println("El resultado de la suma es: "+ res);
-
+	private int resultado;
+	
+	public void suma(int numero1, int numero2) {
+		resultado = numero1+numero2;
+		System.out.println("El resultado de la suma es: "+ resultado);
 	}
 
 
-	public void resta() {
-
-		int a =5;
-		int b =8;
-		int res = a-b;
-
-		System.out.println("El resultado de la resta es: "+ res);
+	public void resta(int numero1, int numero2) {
+		resultado = numero1-numero2;
+		System.out.println("El resultado de la resta es: "+ resultado);
 
 	}
 	
-	public void multiplicacion() {
+	public void multiplicacion(int numero1, int numero2) {
 
-		int a =5;
-		int b =8;
-		int res = a*b;
+		resultado = numero1*numero2;
 
-		System.out.println("El resultado de la resta es: "+ res);
+		System.out.println("El resultado de la multiplicacion es: "+ resultado);
 
 	}
 	
-	public void division() {
+	public void division(int numero1, int numero2) {
 
-		int a =5;
-		int b =8;
-		int res = a/b;
+		resultado=numero1/numero2;
 
-		System.out.println("El resultado de la resta es: "+ res);
+		System.out.println("El resultado de la division es: "+ resultado);
 
 	}
 

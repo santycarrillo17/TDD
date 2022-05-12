@@ -10,7 +10,7 @@ class SumaTest {
 	void test() {
 		
 		Operaciones operaciones = new Operaciones();
-		operaciones.suma();
+		operaciones.suma(23,4);
 		
 	}
 

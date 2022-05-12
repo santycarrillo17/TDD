@@ -1,7 +1,5 @@
 package Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 
 import Operaciones.Operaciones;
@@ -12,7 +10,7 @@ class MultiplicacionTest {
 	void test() {
 		
 		Operaciones operaciones = new Operaciones();
-		operaciones.multiplicacion();
+		operaciones.multiplicacion(5,10);
 	}
 
 }

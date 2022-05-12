@@ -1,7 +1,5 @@
 package Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 
 import Operaciones.Operaciones;
@@ -12,7 +10,7 @@ class RestaTest {
 	void test() {
 		
 		Operaciones operaciones = new Operaciones();
-		operaciones.resta();
+		operaciones.resta(2,6);
 		
 	}
 
